@@ -1,0 +1,104 @@
+
+    .nav-item li:hover{
+      background-color: #23cdaf;
+      color: white;
+      box-shadow: 5px 10px 30px rgba(139, 24, 82, 0.2);
+      transition: all ease 0.2s;
+    }
+  
+    .nav-item {
+      margin-left: 40px;
+      font-size: medium;
+    
+    }
+    
+    #main {
+     width: 100%;
+     height: 50vh;
+     position: relative;
+    }
+    
+    nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 55%;
+      background-color:rgb(175, 238, 227);
+      box-shadow : 5px 10px 30px rgba(7, 1, 12, 0.041);
+      z-index: 1;
+    }
+    
+    .logo img{
+      height: 75px;
+    }
+    
+   
+    .ami img{
+      margin-left:600px;
+      height: 50px;
+      align-items: center;
+      
+    }
+    
+   
+     .searchbar{
+      margin-bottom: auto;
+      margin-top: auto;
+      height: 60px;
+      background-color: white;
+      border-radius: 30px;
+      padding: 10px;
+      float: right;
+      }
+    
+      .search_input{
+      color: black;
+      border: 0;
+      outline: 0;
+      background: none;
+      width: 0;
+      caret-color:transparent;
+      line-height: 40px;
+      transition: width 0.4s linear;
+      }
+  
+      .d-flex{
+        text-align: right;
+        align-self: flex-end;
+        margin-right: 0;
+        margin-left: auto;
+      }
+      .container-fluid{
+        background: black;
+        margin: 0;
+        padding: 0;
+      }
+      .bg-dark{
+        background-color: black!important;
+      }
+
+      *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+      }
+      .bd2{
+        font-family: 'Copperplate';
+        font-weight: 400;
+        min-height: 700vh;
+        min-width: 100vw;
+        background-color: #232F3E;
+        
+       } 
+           
+       h1{
+           text-align: center;
+           margin-top: 250px;
+           
+       }
+  
+    

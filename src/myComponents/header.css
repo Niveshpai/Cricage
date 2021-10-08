@@ -1,0 +1,230 @@
+*{
+  box-sizing: border-box;
+}
+
+.bd{
+ margin: 0px;
+ padding: 0px;
+ font: poppins;
+ 
+  font-family: 'Copperplate';
+  font-weight: 400;
+  min-height: 230vh;
+  min-width: 100vw;
+  background-image : url('https://resources.pulse.icc-cricket.com/ICC/photo/2018/07/16/cd2fd2a2-f2a3-40e3-b61c-0fe4b51ace6f/ICC-Cricket-World-Cup-CS-_8.jpg');
+  
+  /*background-size: cover;
+  background-color: blue;*/
+}
+
+.nav-item li:hover{
+  background-color: #23cdaf;
+  color: white;
+  box-shadow: 5px 10px 30px rgba(139, 24, 82, 0.2);
+  transition: all ease 0.2s;
+}
+
+.nav-item {
+  margin-left: 40px;
+  font-size: medium;
+
+}
+
+#main {
+ width: 100%;
+ height: 50vh;
+ position: relative;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55%;
+  background-color:rgb(175, 238, 227);
+  box-shadow : 5px 10px 30px rgba(7, 1, 12, 0.041);
+  z-index: 1;
+}
+
+.logo img{
+  height: 75px;
+}
+
+
+.ami img{
+  margin-left:500px;
+  height: 50px;
+  align-items: center;
+  
+}
+
+
+ .searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  float: right;
+  }
+
+  .search_input{
+  color: black;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+  .d-flex{
+    text-align: right;
+    align-self: flex-end;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .container-fluid{
+    background: black;
+    margin: 0;
+    padding: 0;
+  }
+  .bg-dark{
+    background-color: black!important;
+  }
+  .h2{
+      text-align: center;
+      margin-top: 50px;
+      margin-left: 430px;
+      margin-right: 430px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: white;
+      color:white;
+  }
+  .gous{
+    background-color: tomato;
+    color:white;
+    padding: 10px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 720px;
+    color:rgb(12, 3, 20);
+    font-family: 'Copperplate';
+    /* background-color: #B3A123; */
+  }
+  
+  .data table,th,td{
+    
+    text-align: center;
+    border: 4px solid black;
+    background-color: rgba(255, 255, 255, 0.63);
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 780px;
+    height: 50px;
+  }
+
+  /*.news{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: white;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    background-color: #B3A123; 
+  }
+
+  .image{
+    width :500px;
+    height: 500px;
+  }
+  
+  .centerpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  .Content{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 5%;
+    right: 10%;
+    transform: translate (-50%,-50%) 
+
+  }
+
+  .news1style{
+    list-style: none;
+    display : flex;
+  }
+
+  .news1style ul a{
+    height :40px;
+    line-height:250px;
+    margin:33px;
+    padding:0px 22px;
+    display: flex;
+    font-size:0.8em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing:1px;
+    width:60%;
+  }*/
+
+  .goush2{
+    color: white;
+    background: #1abc9c;
+    
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 720px;
+    color:rgba(0, 0, 0, 0.815);
+    font-family: 'Helvetica, Sans-Serif';   
+position: relative;
+letter-spacing: 10px;
+color: rgba(0,0,255,0.5);
+  }
+
+  
+
+
+
+  
+  .newsbutton{
+      margin-top: 30px;
+      width : 190px;
+      height: 44px;
+      text-align: center;
+      margin-left: 335px;
+      margin-right: 670px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: #1db096;
+      border-radius: 20px;
+      box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+
+  }
+
+  .tab1 {
+    tab-size: 2;
+}
