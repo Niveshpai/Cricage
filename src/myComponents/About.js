@@ -10,7 +10,7 @@ export default function About() {
   
  
   const submit=()=>{
-    Axios.get(`http://localhost:5000/players/${search}`)
+    Axios.get(`http://localhost:3000`)
       .then(resp => resp.json()) 
       .then( (response) => {
         console.log(response);
@@ -21,7 +21,7 @@ export default function About() {
       .catch( (error) => {
         console.log(error);
       }); 
-      window.location.href=`http://localhost:3000/players/${search}`;
+      window.location.href=`http://localhost:3000`;
   };
     return (
         <html>
