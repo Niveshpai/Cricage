@@ -60,10 +60,7 @@ export default function Players() {
                   </Link>
                 </li>
                 <li class="nav-item-centre"></li>
-                <div class="ami"><a href="#">
-                <img src={Ami}
-                alt="The logo of Project" 
-              />
+
             </a></div>
               </ul>
               <form class="d-flex">
