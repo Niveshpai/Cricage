@@ -61,7 +61,7 @@ export default function Players() {
                 </li>
                 <li class="nav-item-centre"></li>
 
-            </a></div>
+            
               </ul>
               <form class="d-flex">
                 <input
