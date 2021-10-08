@@ -3,7 +3,7 @@ import './players.css'
 import {Link} from "react-router-dom";
 import './header.css'
 import Axios from 'axios'
-import Ami from './constants/Ami.jpg'
+
 export default function Players() {
     const[search, setSearch]=useState('')
   
