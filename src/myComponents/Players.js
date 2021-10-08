@@ -9,8 +9,8 @@ export default function Players() {
   
  
   const submit=()=>{
-    window.location.href="http://localhost:3000/viewPlayer";
-    Axios.post("http://localhost:9000/go",{search:search});
+    window.location.href="http://localhost:3000";
+    Axios.post("http://localhost:3000",{search:search});
   };
     return (
         <html lang="en">
