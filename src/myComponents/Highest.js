@@ -27,7 +27,7 @@ export default function Header() {
   },[])
  
   const submit=()=>{
-    Axios.get(`http://localhost:5000/players/${name}`)
+    Axios.get(`http://localhost:3000`)
       .then(resp => resp.json()) 
       .then( (response) => {
         console.log(response);
@@ -38,7 +38,7 @@ export default function Header() {
       .catch( (error) => {
         console.log(error);
       }); 
-      window.location.href=`http://localhost:3000/players/${name}`;
+      window.location.href=`http://localhost:3000`;
   };
   return (
     <html>
